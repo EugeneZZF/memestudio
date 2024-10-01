@@ -1,0 +1,198 @@
+.cont{
+    /* background: black; */
+    width: 94rem;
+    height: 98rem;;    
+    position: relative;
+    /* margin-top: -40rem; */
+    /* margin-top: 5rem; */
+    /* margin-top: -10rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10rem;
+    scale: 0.75;
+    @media (max-width: 768px) {
+        
+        
+        justify-content: left;
+        scale: 1;
+        width: 19rem;
+        height: 27.5rem;
+        margin-top: 7rem;
+        
+      }
+}
+.line{
+    width: 94rem;
+    height: 0.05rem;
+    position: absolute;
+    top: 0;
+    @media (max-width: 768px) {
+            width: 19rem;
+             height: 0.0625rem;
+            flex-shrink: 0;
+      }
+}
+.line_2{
+    width: 94rem;
+    height: 0.05rem;
+    position: absolute;
+    bottom: 0;
+    @media (max-width: 768px) {
+            width: 19rem;
+             height: 0.0625rem;
+            flex-shrink: 0;
+            
+      
+      }
+}
+.cont_form{
+    height: 80rem;
+    width: 56.87rem;
+    @media (max-width: 768px) {
+        height: 19rem;
+        width: 100%;
+      
+      }
+}
+.dot{
+    width: 14.0625rem;
+    height: 2.6875rem;
+    flex-shrink: 0;
+    top: 0;
+    left: 0;
+    @media (max-width: 768px) {
+        width: 2.82225rem;
+        height: 0.53938rem;
+        flex-shrink: 0;
+      }
+
+}
+.title{
+    margin-top: 2rem;
+    
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 62.5625rem;
+    @media (max-width: 768px) {
+        font-size: 0.9375rem;
+        width: 17.3125rem;
+        margin-top: 0.8rem;
+      }
+}
+.green{color: #81CF50;}
+
+.below{
+    margin-top: 4.75rem;
+
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    @media (max-width: 768px) {
+        font-size: 0.5rem;
+        margin-top: 1rem;
+      }
+}
+
+form{
+    height: 50rem;
+    margin-top: 3.8rem;
+    display: flex;
+    
+    flex-direction: column;
+    @media (max-width: 768px) {
+        height: 15rem;
+        width: 12rem;
+        margin-top: 0;
+      }
+}
+label{
+    color: #81CF50;
+    font-family: Tomorrow;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 1.19rem;
+    padding-top: 2.2rem;
+    @media (max-width: 768px) {
+        font-size: 0.5rem;
+        padding: 0;
+        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+      }
+
+}
+input{
+    height: 4.75rem;
+    border-radius: 2.375rem;
+    border: none;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 2rem;
+    color: #A5A5A5;outline: none;
+    @media (max-width: 768px) {
+        width: 11.4145rem;
+        height: 1.154rem;
+        flex-shrink: 0; font-size: 0.4375rem;
+        padding-left: 0.75rem;
+      }
+}
+.message_input{
+    
+    height: 13.125rem;
+    border-radius: 2.375rem;
+    border: none;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1.6rem;
+    font-size: 2rem;
+    text-align: left;       color: #A5A5A5;
+    resize: none;outline: none;
+    @media (max-width: 768px) {
+        width: 11.4375rem;
+        height: 3.5rem;
+        overflow-y: hidden;
+         font-size: 0.4375rem;
+         padding-left: 0.75rem; padding-top: 0.5rem;
+         border-radius: 0.8125rem;
+        background: #FFF;
+      }
+
+}
+.btn_send{
+    width: 16.8125rem;
+    height: 4.875rem;
+    border: none;
+    border-radius: 2.0625rem;
+    background: #75C644;
+    color: #000;
+    color: #FFF;
+text-align: center;
+font-family: Tomorrow;
+font-size: 2.625rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+justify-self: center;
+align-self: center;
+margin-top: 6rem;
+@media (max-width: 768px) {
+    /* display: none; */
+    width: 3.8125rem;
+    height: 1.125rem;
+    flex-shrink: 0; border-radius: 2.0625rem;
+    background: #75C644; font-size: 0.625rem;
+    margin: 0;
+    align-self: self-start;
+    margin-top: 0.88rem;
+    
+  }
+}

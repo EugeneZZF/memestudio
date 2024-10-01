@@ -1,0 +1,75 @@
+.cont{
+    width: 112.125rem;
+    height: 39.625rem;
+    flex-shrink: 0;
+    border-radius: 4.875rem;
+    background: #102413;
+    background-size: cover; /* Покроет весь блок картинкой */
+  background-position: center; /* Центрирование картинки */
+  background-repeat: no-repeat; /* Запрет повторения картинки */
+  margin-left: 25.9rem;
+  margin-top: 9.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 768px) {
+    
+            margin: 0;
+            width: 22.625rem;
+            height: 12.25rem;
+            flex-shrink: 0;
+            border-radius: 0rem;
+  }
+}
+.left{
+    width: 39rem;
+    height: 7rem;
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 4rem;
+    @media (max-width: 768px) {
+        margin: 0;
+        /* background: #000; */
+        width: 9rem;
+        height: 5rem;
+        font-size: 1.0625rem;
+        margin-left: 1rem;
+}
+}
+.green{color: #81CF50;}
+.right{
+    margin-right: 11rem;
+    @media (max-width: 768px) {
+        margin: 0;
+        scale: 0.27;
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        margin-left: -11rem;
+}
+}
+.dots{
+    display: flex;
+    gap: 3.7rem;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    margin-left: 33rem;
+    margin-top: -39.5rem;
+}
+.set{
+    position: absolute;
+    width: 14.75rem;
+    height: 13.125rem;
+    flex-shrink: 0;
+    scale: 2;
+    margin-top: 35rem;
+    margin-left: 14rem;
+    opacity: 0.2;
+    z-index: -1;
+    left: 0;
+}

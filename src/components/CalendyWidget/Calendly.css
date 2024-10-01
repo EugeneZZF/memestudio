@@ -1,0 +1,10 @@
+.booking-container{
+    @media (max-width: 768px) {
+        width: 16.5rem;
+    }
+}
+.spotpicker{
+    @media (max-width: 768px) {
+        width: auto;
+    }
+}

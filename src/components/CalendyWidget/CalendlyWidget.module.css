@@ -1,0 +1,171 @@
+.cal_cont{
+    width: 36.25rem;
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    @media (max-width: 768px) {
+        scale: 0.5;
+        margin-top: 0;
+        margin-top: -15rem;
+        width: 100%;
+        
+      }
+}
+.calendly-inline-widget{
+    @media (max-width: 768px) {
+        overflow-y: hidden;
+    overflow-x: hidden;
+    border: solid black 0.1rem;
+    
+      }
+}
+.cal{
+    width: 36.25rem;
+    height: auto;
+    overflow-y: hidden;
+    @media (max-width: 768px) {       
+        width: 100%;
+      }
+}
+.cal_up{
+    background: #102413;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.00);
+    height: 22.44rem;
+    display: flex; flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title_cal{
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.title_cal_2{
+    color: #81CF50;
+font-family: Tomorrow;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.cal_bot{
+    height: 6rem;
+    width: 24rem;
+}
+.line_cal{
+    display: flex;
+    gap: 0.8rem;
+    padding-top: 1rem;
+}
+.img_cal{
+    width: 1.8125rem;
+    height: 1.8125rem;
+    flex-shrink: 0;
+}
+.img_cal_2{
+    width: 2rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+}
+.p_bot{
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title_cal {
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ 
+    @media (max-width: 768px) {
+        font-size: 1.25rem;
+    }
+ }
+ .title_cal_2 {
+    color: #81CF50;
+    font-family: Tomorrow;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ 
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
+ }
+ .line_cal {
+    display: flex;
+    gap: 0.8rem;
+    padding-top: 1rem;
+ 
+    @media (max-width: 768px) {
+        gap: 0.6rem;
+    }
+ }
+ .img_cal {
+    width: 1.8125rem;
+    height: 1.8125rem;
+    flex-shrink: 0;
+ 
+    @media (max-width: 768px) {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+ }
+ .img_cal_2 {
+    width: 2rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+ 
+    @media (max-width: 768px) {
+        width: 1.75rem;
+        height: 1.25rem;
+    }
+ }
+ .p_bot {
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ 
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
+ }
+
+ .cal_cont {
+    width: 100%;
+    max-width: 36.25rem;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.calendly-inline-widget {
+    width: 100%;
+    height: auto;
+    min-height: 560px; /* Пример минимальной высоты */
+
+    @media (max-width: 768px) {
+        border: none; /* Устраняет обрезку */
+        min-height: 700px; /* Увеличивает для мобильных устройств */
+    }
+}
+
+.cal {
+    width: 100%;
+    height: auto;
+}

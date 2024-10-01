@@ -1,0 +1,216 @@
+main{
+    width: 100%;
+    height: auto;
+    
+    
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+.bgr_title{
+  color: #273F2A;
+font-family: Tomorrow;
+font-size: 8.5rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+width: 86.6875rem;
+@media (max-width: 768px) {
+  scale: 0.25;
+}
+}
+
+.bgr_dots_1{
+  z-index: -1;
+  width: 38.375rem;
+  height: 20.1875rem;
+  flex-shrink: 0;
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+  margin-left: 3rem;
+  margin-top: 12.6rem;
+}
+
+.card_main{
+  width: 84.6rem;
+  height: 50rem;
+  background: #102413;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.00);
+  display: flex;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 16.5rem;
+    height: 39rem;
+  }
+}
+
+.card_main_left{
+  background: #000;
+  width: 35.06rem;
+  height: 50rem;
+  
+  background-size: cover; /* Покроет весь блок картинкой */
+  background-position: center; /* Центрирование картинки */
+  background-repeat: no-repeat; /* Запрет повторения картинки */
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 16.5rem;
+    height: 15.6875rem;
+    background-size: cover;
+  }
+
+}
+.card_main_right{
+  width: 49.53rem;
+  height: 50rem;
+  background-size: cover; /* Покроет весь блок картинкой */
+  background-position: center; /* Центрирование картинки */
+  background-repeat: no-repeat;
+  display: flex;
+  @media (max-width: 768px) {
+    margin-top: 2rem;
+    flex-direction: column;
+    width: 16.5rem;
+    height: 25rem;
+    background-size: cover;
+    font-size: 0.6875rem;
+  }
+}
+
+.card_main_dots{
+  width: 6.73081rem;
+  height: 1.29188rem;
+  flex-shrink: 0;
+  padding-bottom: 1rem;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.card_cont{
+  height: 27rem;
+  width: 42.69rem;
+  margin-top: 11rem;
+  margin-left: 3.5rem;
+  @media (max-width: 768px) {
+    margin: 0;
+
+    text-align: center;
+    margin-left: 2.25rem;
+    flex-direction: column;
+    width: 12rem;
+    height: 20rem;
+    background-size: cover;
+    font-size: 0.6875rem;
+  }
+  
+}
+.card_p{
+  padding-bottom: 1rem;
+  color: #FFF;
+font-family: Tomorrow;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+@media (max-width: 768px) {
+  font-size: 0.6875rem;
+  }
+}
+
+.card_title{
+  
+  padding-bottom: 1rem;
+  color: #FFF;
+  font-family: Tomorrow;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  @media (max-width: 768px) {
+    font-size: 1.25rem;
+  }
+}
+
+.line_main{
+  margin-top: 5rem;
+  width: 80%;
+  height: 0.009rem;
+  @media (max-width: 768px) {
+    margin-top: 2rem;
+  }
+}
+.line_main_2{
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.calendar{
+  margin-top: 6rem;
+  width: 36.5rem;
+  height: 66.5rem;
+  background: #102413;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.00);
+}
+.cal_cont{
+  display: flex;
+  margin-top: 6rem;
+  gap: 7rem;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 0;
+    margin-top: -12rem;
+  }
+}
+
+.bgr_slider_1{
+  width: 57.5rem;
+  height: 31.1875rem;
+  flex-shrink: 0;
+  border-radius: 3rem;
+  background: rgba(16, 36, 19, 0.69);
+  position: absolute;
+  left: 0;
+}
+
+.button_cont{
+  z-index: 1000;
+  padding-bottom: 5rem;
+  margin-top: -10rem;
+  width: 85rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  @media (max-width: 768px) {
+    gap: 0.68rem;
+    margin-top: -19.5rem;
+    width: 19rem;
+    height: 10rem;
+  }
+}
+.line_cont{
+  display: flex;
+  gap: 0.37rem;
+  @media (max-width: 768px) {
+    gap: 0,38rem;
+  }
+}
+
+.render_cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

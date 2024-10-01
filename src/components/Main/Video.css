@@ -1,0 +1,44 @@
+
+.container_1{
+    display: flex;
+    
+    justify-content: center;
+    
+    height: 20rem;
+    width: 40rem;
+    /* position: absolute; */
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+
+  
+    
+}
+.video-react .video-react-control-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.video-react{
+  width: 40rem;
+  
+}
+.video-react-play-control{
+  background-color: #ff0000; /* Красная кнопка */
+  border-radius: 20%; /* Закругление краев */
+  justify-self: center;
+  
+}
+.video-react-progress-holder {
+  background-color: #00ff00; /* Зеленый фон ползунка */
+}
+
+.video-react-progress-holder .video-react-progress-bar {
+  background-color: #0000ff; /* Синий прогресс бар */
+}
+
+.video-react-progress-holder .video-react-play-progress {
+  background-color: #ff00ff; /* Розовый цвет проигрывания */
+}
+
+.video-react-progress-holder .video-react-load-progress {
+  background-color: #00ffff; /* Голубой цвет загрузки */
+}

@@ -1,0 +1,65 @@
+.sliderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  .imageContainer {
+    display: flex;
+    width: 66.5rem; /* Ширина контейнера равна ширине одной картинки */
+    overflow: hidden; /* Скрываем избыток */
+  }
+  
+  .sliderImage {
+    padding-right: 1.5rem;
+    padding-right: 1.5rem;
+    width: 25rem; /* Ширина каждой картинки */
+    height: 25rem;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out; /* Плавное перемещение */
+  }
+  
+  .navButtonPerv{
+    background-color: transparent;
+    border: none;
+    z-index: 1; /* Кнопки навигации поверх изображений */
+    background-size: cover; /* Покроет весь блок картинкой */
+    background-position: center; /* Центрирование картинки */
+    background-repeat: no-repeat; /* Запрет повторения картинки */
+    width: 3.5625rem;
+    height: 2.5rem;
+    stroke-width: 4px;
+    stroke: #FFF;
+    margin-right: 2rem;
+  }
+
+  .navButtonNext {
+    background-color: transparent;
+    border: none;
+    z-index: 1; /* Кнопки навигации поверх изображений */
+    background-size: cover; /* Покроет весь блок картинкой */
+    background-position: center; /* Центрирование картинки */
+    background-repeat: no-repeat; /* Запрет повторения картинки */
+    width: 3.5625rem;
+    height: 2.5rem;
+    stroke-width: 4px;
+    stroke: #FFF;
+    margin-left: 2rem;
+    
+  }
+  
+  .imagesWrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Плавное перемещение контейнера */
+  }
+  .line{
+        
+    height: 39.8125rem;
+    width: auto;
+    
+    flex-shrink: 0;
+    
+}

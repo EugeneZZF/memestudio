@@ -1,0 +1,17 @@
+.cont{
+   
+    display: flex;
+    flex-direction: column;
+    width: 120rem;
+    height: auto;
+    margin-right: 5rem;
+    /* align-items: center; */
+    
+    
+  
+    @media (max-width: 768px) {
+        height: auto;
+        /* padding-bottom: 10rem; */
+      }
+}
+

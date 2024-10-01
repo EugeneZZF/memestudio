@@ -1,0 +1,37 @@
+.title{
+    color: #FFF;
+text-align: center;
+font-family: Tomorrow;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 900;
+    line-height: normal;
+    position: absolute;
+
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.bgr_slider_1{
+    width: 57.5rem;
+    height: 31.1875rem;
+    flex-shrink: 0;
+    border-radius: 3rem;
+    background: rgba(16, 36, 19, 0.69);
+    position: absolute;
+    left: 0;
+    z-index: -2;
+    margin-top: 10rem;
+    margin-left: 14rem;
+  }
+.dots{
+    width: 16.15788rem;
+    height: 8.5rem;
+    z-index: -1;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 35rem;
+
+}

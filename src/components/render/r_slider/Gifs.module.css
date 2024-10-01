@@ -1,0 +1,58 @@
+
+  
+  .slick-slide {
+    opacity: 0.5;
+    transform: scale(0.9);
+    transition: opacity 0.5s, transform 0.5s;
+    z-index: -2;
+  }
+  
+  .slick-center {
+    z-index: 2;
+    opacity: 1 !important;
+    transform: scale(1.1);
+  }
+  
+  .slick-slide {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .videos{
+    width: 100%;
+    z-index: 5;
+    border-radius: 10px;
+  }
+
+  .slider-container {
+    position: relative;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+     /* Расположить стрелки ниже слайдера */
+    z-index: 1;
+    scale: 2;
+    margin-top: 20rem;
+  }
+  
+  .slick-prev {
+    left: 45%;
+  }
+  
+  .slick-next {
+    right: 45%;
+  }
+  .slide img{
+    /* width: 29rem; */
+    border-radius: 4rem;
+    
+  }
+  .slide{
+    border-radius: 1rem;
+  }
+  .gifs{
+    width: 80%;
+    margin-left: 14.5rem;
+    margin-right: -20rem;
+height: auto;}

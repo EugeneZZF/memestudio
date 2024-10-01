@@ -1,0 +1,35 @@
+.btn{
+    width: 18.5rem;
+    height: 5.3125rem;
+    font-size: 1.1875rem;
+    /* width: 27.5rem;
+    height: 7.3125rem; 
+    font-size: 2.1875rem;*/
+    flex-shrink: 0;
+    border-radius: 15.59375rem;
+    border: 2px solid #FFF;
+    background: rgba(16, 36, 19, 0.00);
+    color: #FFF;
+    text-align: center;
+    font-family: Tomorrow;
+    
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* scale: 0.7; */
+    @media (max-width: 768px) {
+        scale: 1;
+        width: 6.10475rem;
+        height: 1.62331rem;
+        flex-shrink: 0;
+        font-size: 0.46875rem;
+      }
+}
+
+.btn.active {
+    color: #81CF50;
+    border:  solid #81CF50; /* или любой другой фон, если нужно */
+  }

@@ -1,0 +1,64 @@
+.cont{
+    width: 86.5rem;
+    height: 48rem;
+    margin-top: 16rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: 768px) {
+        margin-top: 0;
+        margin-top: -9rem;
+        scale: 0.23;
+        
+      }
+}
+.green{
+    color: #81CF50;
+}
+.title{
+    padding-bottom: 3rem;
+    width: 78rem;
+    color: #FFF;
+text-align: center;
+font-family: Tomorrow;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 900;
+    line-height: normal;
+    @media (max-width: 768px) {
+        scale: 1.8;
+      }
+}
+.n_line{
+    @media (max-width: 768px) {
+        display: block;
+      }
+}
+
+.line{
+    width: 89rem;
+    height: auto;
+    flex-shrink: 0;    
+    padding-bottom: 4.56rem;
+    
+}
+.port_img{
+    opacity: 0.85;
+    width: 86.5rem;
+height: 30.125rem;
+flex-shrink: 0;
+padding-bottom: 4.56rem;
+border-radius: 10.5rem;
+}
+.set{
+    position: absolute;
+    width: 14.75rem;
+    height: 13.125rem;
+    flex-shrink: 0;
+    scale: 2;
+    margin-top: 35rem;
+    margin-left: 14rem;
+    opacity: 0.2;
+    z-index: -1;
+    left: 0;
+}
